@@ -1,0 +1,90 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #222;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 2em;
+  text-align: center;
+}
+
+.workspace {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 2em;
+}
+
+.pc-case {
+  width: 400px;
+  height: 500px;
+  background-color: #ddd;
+  border: 3px dashed #aaa;
+  position: relative;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.dropzone {
+  width: 100px;
+  height: 100px;
+  background-color: #bbb;
+  margin: 10px auto;
+  line-height: 100px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 2px dashed #999;
+}
+
+.parts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.draggable {
+  width: 120px;
+  cursor: grab;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  transition: border 0.3s;
+}
+
+.draggable:active {
+  cursor: grabbing;
+  opacity: 0.6;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  margin-top: 2em;
+}
+
+#status {
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: green;
+}
